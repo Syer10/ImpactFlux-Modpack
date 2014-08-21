@@ -1,0 +1,15 @@
+#FAQ
+
+Q) The following error occurs:
+
+[13:36:35] [Client thread/ERROR]: ########## GL ERROR ##########
+[13:36:35] [Client thread/ERROR]: @ Pre startup
+[13:36:35] [Client thread/ERROR]: 1280: Invalid enum
+
+A) Try launching forge with this command line.  -Dforge.forceNoStencil=true
+
+
+
+Q) HELP - the number of items I crafted is not registerring properly.
+
+A) Known bug with HQM - https://bitbucket.org/Newcastlegeek/hqm-bugtracker/issue/78/quests-with-multiple-outputs-on-craft-only
