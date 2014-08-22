@@ -4,6 +4,8 @@ Permissions: https://docs.google.com/spreadsheets/d/1-fhQQ1YGoW4nJeoP1Ov4lIrKh0e
 
 Latest Client Stable Download: https://www.dropbox.com/s/0ry064cucz82k06/%5B1.7.10%5DImpactFlux.v.0.9.5.zip
 
+DO NOT USE THE 0.9.5 VERSION FOR A SERVER.  IT WILL NOT WORK.
+
 
 Pack code: ImpactFlux
 
