@@ -2,7 +2,8 @@ Name: ImpactFlux Modpack
 
 Permissions: https://docs.google.com/spreadsheets/d/1-fhQQ1YGoW4nJeoP1Ov4lIrKh0eeh4r6C2V9TImOrho/edit?usp=sharing
 
-Latest Stable Download: https://www.dropbox.com/s/36ibrxv3xyetu9s/%5B1.7.10%5DImpactFlux.v.0.9.1.zip
+Latest Client Stable Download: https://www.dropbox.com/s/0ry064cucz82k06/%5B1.7.10%5DImpactFlux.v.0.9.5.zip
+
 
 Pack code: ImpactFlux
 
