@@ -2,18 +2,17 @@ Name: ImpactFlux Modpack
 
 Permissions: https://docs.google.com/spreadsheets/d/1-fhQQ1YGoW4nJeoP1Ov4lIrKh0eeh4r6C2V9TImOrho/edit?usp=sharing
 
-Latest Client Stable Download: https://www.dropbox.com/s/0ry064cucz82k06/%5B1.7.10%5DImpactFlux.v.0.9.5.zip
+The pack can be downloaded through the FTB launcher using the pack code ImpactFlux
 
-DO NOT USE THE 0.9.5 VERSION FOR A SERVER.  IT WILL NOT WORK.
+Development builds can be downlaoded by clicking Download ZIP on the right, or by clicking this link;
 
+https://github.com/ImpactFlux/ImpactFlux-Modpack/archive/master.zip
 
-Pack code: ImpactFlux
+We do not guarantee that these builds will work, but if there is a problem, please tell us. The version on github will always be the most up to date and bleeding edge versions of the quest data and mods.
 
 Minecraft Version: 1.7.10
 
 Forge Version: 1205
-
-Pack Version: 0.9.2
 
 Pack Author: ImpactFlux/VanitySet
 
