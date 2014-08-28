@@ -1,6 +1,8 @@
 Name: ImpactFlux Modpack
 
-Permissions: https://docs.google.com/spreadsheets/d/1-fhQQ1YGoW4nJeoP1Ov4lIrKh0eeh4r6C2V9TImOrho/edit?usp=sharing
+Permissions: https://docs.google.com/spreadsheets/d/1-fhQQ1YGoW4nJeoP1Ov4lIrKh0eeh4r6C2V9TImOrho
+
+Changelog: https://docs.google.com/spreadsheets/d/19_z7bp1cDa7CiQqvS-iDJXriYWNfyHDqHMXHmSuEgXc
 
 The pack can be downloaded through the FTB launcher using the pack code ImpactFlux
 
