@@ -6,10 +6,26 @@ Q) The following error occurs:
 [13:36:35] [Client thread/ERROR]: @ Pre startup
 [13:36:35] [Client thread/ERROR]: 1280: Invalid enum
 
-A) Try launching forge with this command line.  -Dforge.forceNoStencil=true
+A) Try launching forge with this command line. This command line is inserted into the Additional Java Parameters box in the Feed the Beast launcher under Options>Advanced Options -Dforge.forceNoStencil=true
 
 
 
 Q) HELP - the number of items I crafted is not registerring properly.
 
 A) Known bug with HQM - https://bitbucket.org/Newcastlegeek/hqm-bugtracker/issue/78/quests-with-multiple-outputs-on-craft-only
+
+
+
+Q) I am having performance issues with the modpack.
+
+A) There are many issues that cause performance issues with modpacks, espeically modpacks that are running 1.7.10. If you are experiencing chunk generation lag, this is normal, and is an issue that occurs even in Vanilla Minecraft. If you are having general issues, such as incredibly low FPS, there are a few steps that you can take to resolve this issue. I will include the steps that work for me, and provide me with a smooth and uninterrupted experience, even running a development instance of the modpack.
+
+1. Make sure that you are running the correct Java for your system. If you are using a 64bit operating system, make sure that you are running a 64bit installation of Java. Also, make sure that you are running Java version 7, as Minecraft cannot currently run Java version 8. You can find Java related downloads and information at this link: http://www.java.com/en/download/faq/java_win64bit.xml
+
+2. Make sure that you have allocated an appropriate amount of RAM to the modpack. I'm an idiot, and I have my RAM allocation set to 8.25 GB. Not everyone needs to set it this high, and you can argue that the amount that I have it set to is incredibly excessive. If you have 4+ GB of RAM, set the amount allocated to 4 GB. Anything less can lead to performance issues.
+
+3. Insert JVM arguments. JVM arguments tell the instance of Java special commands that are run on start-up. The JVM arguments that I currently use are from the Feed the Beast official forums, in this post; http://forum.feed-the-beast.com/threads/jvm-arguments-for-modded-minecraft-updated-12-30-13.28994/
+
+4. Close any programs that might be using high amounts of CPU or RAM. Minecraft can be fickle at times, and if it doesn't have the ability to grab RAM or CPU processing at will, it can and will lock up.
+
+5. Download and install Player's Fastcraft mod. It's pretty neat, and it will basically give you a 20+ FPS increase. It's magic. I don't know how or why it works, but it just does. http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
