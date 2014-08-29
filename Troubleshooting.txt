@@ -18,7 +18,7 @@ A) Known bug with HQM - https://bitbucket.org/Newcastlegeek/hqm-bugtracker/issue
 
 Q) I am having performance issues with the modpack.
 
-A) There are many issues that cause performance issues with modpacks, espeically modpacks that are running 1.7.10. If you are experiencing chunk generation lag, this is normal, and is an issue that occurs even in Vanilla Minecraft. If you are having general issues, such as incredibly low FPS, there are a few steps that you can take to resolve this issue. I will include the steps that work for me, and provide me with a smooth and uninterrupted experience, even running a development instance of the modpack.
+A) There are many issues that cause performance issues with modpacks, especially modpacks that are running 1.7.10. If you are experiencing chunk generation lag, this is normal, and is an issue that occurs even in Vanilla Minecraft. If you are having general issues, such as incredibly low FPS, there are a few steps that you can take to resolve this issue. I will include the steps that work for me, and provide me with a smooth and uninterrupted experience, even running a development instance of the modpack.
 
 1. Make sure that you are running the correct Java for your system. If you are using a 64bit operating system, make sure that you are running a 64bit installation of Java. Also, make sure that you are running Java version 7, as Minecraft cannot currently run Java version 8. You can find Java related downloads and information at this link: http://www.java.com/en/download/faq/java_win64bit.xml
 
