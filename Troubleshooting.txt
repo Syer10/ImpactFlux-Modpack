@@ -6,7 +6,9 @@ Q) The following error occurs:
 [13:36:35] [Client thread/ERROR]: @ Pre startup
 [13:36:35] [Client thread/ERROR]: 1280: Invalid enum
 
-A) Try launching forge with this command line. This command line is inserted into the Additional Java Parameters box in the Feed the Beast launcher under Options>Advanced Options -Dforge.forceNoStencil=true
+A) Try launching forge with this command line. This command line is inserted into the Additional Java Parameters box in the Feed the Beast launcher under Options>Advanced Options 
+
+-Dforge.forceNoStencil=true
 
 
 
