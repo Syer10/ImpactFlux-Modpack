@@ -50,6 +50,7 @@ recipes.addShaped(<meteors:BlockMeteorTimer>,
 recipes.remove(<EnderStorage:enderChest>);
 recipes.remove(<EnderStorage:enderChest:4096>);
 recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
+recipes.remove(<ThermalExpansion:Tesseract:7>);
 
 
 
