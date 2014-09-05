@@ -89,15 +89,3 @@ recipes.addShaped(<ExtraUtilities:nodeUpgrade:5>,
 );
 
 
-recipes.remove(<ThermalExpansion:Tesseract:7>);
-recipes.addShaped(<ThermalExpansion:Tesseract:7>,
-[
-[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],
-[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],
-[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>]]
-);
-
-
-
-
-
