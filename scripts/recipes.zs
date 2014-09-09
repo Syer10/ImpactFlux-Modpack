@@ -1,14 +1,15 @@
 //
 // Sapling/Melon/Pumpkin seeds can now be found by breaking tall grass
 //
-
-vanilla.seeds.addSeed(<minecraft:sapling:2>.weight(5));
-vanilla.seeds.addSeed(<minecraft:sapling:3>.weight(5));
-vanilla.seeds.addSeed(<minecraft:sapling:4>.weight(5));
-vanilla.seeds.addSeed(<minecraft:sapling:5>.weight(5));
+vanilla.seeds.addSeed(<minecraft:sapling:0>.weight(2));
+vanilla.seeds.addSeed(<minecraft:sapling:1>.weight(2));
+vanilla.seeds.addSeed(<minecraft:sapling:2>.weight(2));
+vanilla.seeds.addSeed(<minecraft:sapling:3>.weight(2));
+vanilla.seeds.addSeed(<minecraft:sapling:4>.weight(2));
+vanilla.seeds.addSeed(<minecraft:sapling:5>.weight(2));
 vanilla.seeds.addSeed(<minecraft:melon_seeds>.weight(5));
 vanilla.seeds.addSeed(<minecraft:pumpkin_seeds>.weight(5));
-
+vanilla.seeds.addSeed(Natura:barley.seed:0>.weight(10));
 
 //
 // Setting various fuels
@@ -65,7 +66,7 @@ recipes.addShaped(<meteors:BlockMeteorTimer>,
 // Tweaking Ender Teleportation recipes
 //
 
-recipes.remove(<ThermalExpansion:Tesseract:7);
+recipes.remove(<ThermalExpansion:Tesseract:7>);
 recipes.addShaped(<ThermalExpansion:Tesseract:7>,
 [
 [<ThermalFoundation:material:76>,<ThermalExpansion:Glass>,<ThermalFoundation:material:76>],
@@ -100,6 +101,22 @@ recipes.addShaped(<EnderStorage:enderChest:4096>,
 [<minecraft:blaze_rod>,<minecraft:ender_pearl>,<minecraft:blaze_rod>]]
 );
 
+recipes.remove(<minecraft:ender_chest>);
+recipes.addShaped(<minecraft:ender_chest>,
+[
+[<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>],
+[<minecraft:obsidian>,<appliedenergistics2:item.ItemMultiMaterial:48>,<minecraft:obsidian>],
+[<minecraft:obsidian>,<minecraft:ender_pearl>,<minecraft:obsidian>]]
+);
+
+
+recipes.remove(<ExtraUtilities:endConstructor:0>);
+recipes.addShaped(<ExtraUtilities:endConstructor:0>,
+[
+[<minecraft:ender_eye>,<appliedenergistics2:item.ItemMultiMaterial:48>,<minecraft:ender_eye>],
+[<ExtraUtilities:decorativeBlock1:1>,<ExtraUtilities:decorativeBlock1:12>,<ExtraUtilities:decorativeBlock1:1>],
+[<ExtraUtilities:decorativeBlock1:1>,<ExtraUtilities:decorativeBlock1:1>,<ExtraUtilities:decorativeBlock1:1l>]]
+);
 
 recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
 recipes.addShaped(<ExtraUtilities:nodeUpgrade:5>,
@@ -150,6 +167,29 @@ recipes.remove(<MekanismTools:ObsidianAxe>);
 recipes.remove(<MekanismTools:ObsidianShovel>);
 recipes.remove(<MekanismTools:ObsidianHoe>);
 recipes.remove(<MekanismTools:ObsidianSword>);
+
+recipes.remove(<MekanismTools:OsmiumHelmet>);
+recipes.remove(<MekanismTools:OsmiumChestplate>);
+recipes.remove(<MekanismTools:OsmiumLeggings>);
+recipes.remove(<MekanismTools:OsmiumBoots>);
+recipes.remove(<MekanismTools:OsmiumPaxel>);
+recipes.remove(<MekanismTools:OsmiumPickaxe>);
+recipes.remove(<MekanismTools:OsmiumAxe>);
+recipes.remove(<MekanismTools:OsmiumShovel>);
+recipes.remove(<MekanismTools:OsmiumHoe>);
+recipes.remove(<MekanismTools:OsmiumSword>);
+
+
+recipes.remove(<MekanismTools:GlowstoneHelmet>);
+recipes.remove(<MekanismTools:GlowstoneChestplate>);
+recipes.remove(<MekanismTools:GlowstoneLeggings>);
+recipes.remove(<MekanismTools:GlowstoneBoots>);
+recipes.remove(<MekanismTools:GlowstonePaxel>);
+recipes.remove(<MekanismTools:GlowstonePickaxe>);
+recipes.remove(<MekanismTools:GlowstoneAxe>);
+recipes.remove(<MekanismTools:GlowstoneShovel>);
+recipes.remove(<MekanismTools:GlowstoneHoe>);
+recipes.remove(<MekanismTools:GlowstoneSword>);
 
 
 //
