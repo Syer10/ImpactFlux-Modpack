@@ -1,16 +1,25 @@
-recipes.addShapeless(<minecraft:sapling:0>, [<minecraft:sapling:2>,<minecraft:red_flower>]);
-recipes.addShapeless(<minecraft:sapling:0>, [<minecraft:sapling:3>,<minecraft:red_flower>]);
-recipes.addShapeless(<minecraft:sapling:0>, [<minecraft:sapling:4>,<minecraft:red_flower>]);
-recipes.addShapeless(<minecraft:sapling:0>, [<minecraft:sapling:5>,<minecraft:red_flower>]);
-recipes.addShapeless(<minecraft:sapling:1>, [<minecraft:sapling:2>,<minecraft:yellow_flower>]);
-recipes.addShapeless(<minecraft:sapling:1>, [<minecraft:sapling:3>,<minecraft:yellow_flower>]);
-recipes.addShapeless(<minecraft:sapling:1>, [<minecraft:sapling:4>,<minecraft:yellow_flower>]);
-recipes.addShapeless(<minecraft:sapling:1>, [<minecraft:sapling:5>,<minecraft:yellow_flower>]);
+//
+// Sapling/Melon/Pumpkin seeds can now be found by breaking tall grass
+//
 
-recipes.addShapeless(<minecraft:pumpkin_seeds>, [<minecraft:melon_seeds>,<minecraft:rotten_flesh>]);
+vanilla.seeds.addSeed(<minecraft:sapling:2>.weight(5));
+vanilla.seeds.addSeed(<minecraft:sapling:3>.weight(5));
+vanilla.seeds.addSeed(<minecraft:sapling:4>.weight(5));
+vanilla.seeds.addSeed(<minecraft:sapling:5>.weight(5));
+vanilla.seeds.addSeed(<minecraft:melon_seeds>.weight(5));
+vanilla.seeds.addSeed(<minecraft:pumpkin_seeds>.weight(5));
 
-recipes.addShapeless(<minecraft:melon_seeds>, [<minecraft:pumpkin_seeds>,<minecraft:reeds>]);
 
+//
+// Setting various fuels
+//
+furnace.setFuel(<minecraft:ladder>, 100);
+furnace.addRecipe(<minecraft:rotten_flesh>, <minecraft:leather>, 0.5);
+
+
+//
+// Tweaking Meteor Recipes
+//
 recipes.remove(<meteors:BlockMeteorShield>);
 recipes.addShaped(<meteors:BlockMeteorShield>,
 [[<meteors:BlockMeteorDecoration>,<meteors:BlockMeteorDecoration>,<meteors:BlockMeteorDecoration>],
@@ -47,14 +56,16 @@ recipes.addShaped(<meteors:BlockMeteorTimer>,
 [<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>]]
 );
 
-recipes.remove(<EnderStorage:enderChest>);
-recipes.remove(<EnderStorage:enderChest:4096>);
-recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
-recipes.remove(<ThermalExpansion:Tesseract:7>);
 
 
 
 
+
+//
+// Tweaking Ender Teleportation recipes
+//
+
+recipes.remove(<ThermalExpansion:Tesseract:7);
 recipes.addShaped(<ThermalExpansion:Tesseract:7>,
 [
 [<ThermalFoundation:material:76>,<ThermalExpansion:Glass>,<ThermalFoundation:material:76>],
@@ -63,7 +74,7 @@ recipes.addShaped(<ThermalExpansion:Tesseract:7>,
 );
 
 
-
+recipes.remove(<EnderStorage:enderChest>);
 recipes.addShaped(<EnderStorage:enderChest>,
 [
 [<minecraft:blaze_rod>,<minecraft:wool>,<minecraft:blaze_rod>],
@@ -72,7 +83,16 @@ recipes.addShaped(<EnderStorage:enderChest>,
 );
 
 
+recipes.remove(<EnderStorage:enderPouch>);
+recipes.addShaped(<EnderStorage:enderPouch>,
+[
+[<minecraft:blaze_powder>,<minecraft:wool>,<minecraft:blaze_powder>],
+[<minecraft:obsidian>,<appliedenergistics2:item.ItemMultiMaterial:48>,<minecraft:obsidian>],
+[<minecraft:blaze_powder>,<minecraft:ender_pearl>,<minecraft:blaze_powder>]]
+);
 
+
+recipes.remove(<EnderStorage:enderChest:4096>);
 recipes.addShaped(<EnderStorage:enderChest:4096>,
 [
 [<minecraft:blaze_rod>,<minecraft:wool>,<minecraft:blaze_rod>],
@@ -81,12 +101,67 @@ recipes.addShaped(<EnderStorage:enderChest:4096>,
 );
 
 
-
+recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
 recipes.addShaped(<ExtraUtilities:nodeUpgrade:5>,
 [
 [<minecraft:ender_pearl>,<minecraft:redstone_torch>,<minecraft:ender_pearl>],
 [<minecraft:quartz>,<appliedenergistics2:item.ItemMultiMaterial:48>,<minecraft:quartz>],
 [<minecraft:ender_pearl>,<minecraft:redstone_torch>,<minecraft:ender_pearl>]]
 );
+
+
+//
+// Remove all meteor armor crafting recipes
+//
+recipes.remove(<meteors:FrezHelm>);
+recipes.remove(<meteors:FrezBody>);
+recipes.remove(<meteors:FrezLegs>);
+recipes.remove(<meteors:FrezBoots>);
+recipes.remove(<meteors:FrezPick>);
+recipes.remove(<meteors:FrezSpade>);
+recipes.remove(<meteors:KrekBody>);
+recipes.remove(<meteors:KrekLegs>);
+recipes.remove(<meteors:KrekBoots>);
+recipes.remove(<meteors:KrekSword>);
+recipes.remove(<meteors:MetAxe>);
+recipes.remove(<meteors:MetBody>);
+recipes.remove(<meteors:MetBoots>);
+recipes.remove(<meteors:MetHelm>);
+recipes.remove(<meteors:MetHoe>);
+recipes.remove(<meteors:MetLegs>);
+recipes.remove(<meteors:MetPick>);
+recipes.remove(<meteors:MetSpade>);
+recipes.remove(<meteors:MetSword>);
+recipes.remove(<meteors:FrezSword>);
+recipes.remove(<meteors:FrezAxe>);
+recipes.remove(<meteors:FrezHoe>);
+
+//
+// Remove Mekanism Obsidian Tools/Armor - TOO OP
+//
+
+recipes.remove(<MekanismTools:ObsidianHelmet>);
+recipes.remove(<MekanismTools:ObsidianChestplate>);
+recipes.remove(<MekanismTools:ObsidianLeggings>);
+recipes.remove(<MekanismTools:ObsidianBoots>);
+recipes.remove(<MekanismTools:ObsidianPaxel>);
+recipes.remove(<MekanismTools:ObsidianPickaxe>);
+recipes.remove(<MekanismTools:ObsidianAxe>);
+recipes.remove(<MekanismTools:ObsidianShovel>);
+recipes.remove(<MekanismTools:ObsidianHoe>);
+recipes.remove(<MekanismTools:ObsidianSword>);
+
+
+//
+// Add tooltips to ender teleport items
+//
+
+<ExtraUtilities:nodeUpgrade:5>.addShiftTooltip(format.green("The meteor storm is interfering with this item, advanced recipe needed..."));
+<EnderStorage:enderChest:4096>.addShiftTooltip(format.green("The meteor storm is interfering with this item, advanced recipe needed..."));
+<EnderStorage:enderPouch>.addShiftTooltip(format.green("The meteor storm is interfering with this item, advanced recipe needed..."));
+<EnderStorage:enderChest>.addShiftTooltip(format.green("The meteor storm is interfering with this item, advanced recipe needed..."));
+<ThermalExpansion:Tesseract:7>.addShiftTooltip(format.green("The meteor storm is interfering with this item, advanced recipe needed..."));
+
+
 
 
