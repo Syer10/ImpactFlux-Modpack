@@ -9,7 +9,7 @@ vanilla.seeds.addSeed(<minecraft:sapling:4>.weight(2));
 vanilla.seeds.addSeed(<minecraft:sapling:5>.weight(2));
 vanilla.seeds.addSeed(<minecraft:melon_seeds>.weight(5));
 vanilla.seeds.addSeed(<minecraft:pumpkin_seeds>.weight(5));
-vanilla.seeds.addSeed(Natura:barley.seed:0>.weight(10));
+vanilla.seeds.addSeed(<Natura:barley.seed:0>.weight(10));
 
 //
 // Setting various fuels
@@ -66,8 +66,9 @@ recipes.addShaped(<meteors:BlockMeteorTimer>,
 // Tweaking Ender Teleportation recipes
 //
 
-recipes.remove(<ThermalExpansion:Tesseract:7>);
-recipes.addShaped(<ThermalExpansion:Tesseract:7>,
+
+recipes.remove(<ThermalExpansion:Frame:7>);
+recipes.addShaped(<ThermalExpansion:Frame:7>,
 [
 [<ThermalFoundation:material:76>,<ThermalExpansion:Glass>,<ThermalFoundation:material:76>],
 [<ThermalExpansion:Glass>,<appliedenergistics2:item.ItemMultiMaterial:48>,<ThermalExpansion:Glass>],
@@ -115,7 +116,7 @@ recipes.addShaped(<ExtraUtilities:endConstructor:0>,
 [
 [<minecraft:ender_eye>,<appliedenergistics2:item.ItemMultiMaterial:48>,<minecraft:ender_eye>],
 [<ExtraUtilities:decorativeBlock1:1>,<ExtraUtilities:decorativeBlock1:12>,<ExtraUtilities:decorativeBlock1:1>],
-[<ExtraUtilities:decorativeBlock1:1>,<ExtraUtilities:decorativeBlock1:1>,<ExtraUtilities:decorativeBlock1:1l>]]
+[<ExtraUtilities:decorativeBlock1:1>,<ExtraUtilities:decorativeBlock1:1>,<ExtraUtilities:decorativeBlock1:1>]]
 );
 
 recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
@@ -201,7 +202,6 @@ recipes.remove(<MekanismTools:GlowstoneSword>);
 <EnderStorage:enderPouch>.addShiftTooltip(format.green("The meteor storm is interfering with this item, advanced recipe needed..."));
 <EnderStorage:enderChest>.addShiftTooltip(format.green("The meteor storm is interfering with this item, advanced recipe needed..."));
 <ThermalExpansion:Tesseract:7>.addShiftTooltip(format.green("The meteor storm is interfering with this item, advanced recipe needed..."));
-
 
 
 
