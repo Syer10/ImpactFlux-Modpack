@@ -205,3 +205,12 @@ recipes.remove(<MekanismTools:GlowstoneSword>);
 
 
 
+//
+// Adding recipe for necrotic bone
+//
+recipes.addShaped(<TConstruct:materials:8>,
+[
+[<minecraft:dye:0>,<minecraft:nether_wart>,<minecraft:dye:0>],
+[<minecraft:rotten_flesh>,<minecraft:bone>,<minecraft:rotten_flesh>],
+[<minecraft:dye:0>,<minecraft:nether_wart>,<minecraft:dye:0>]]
+);
