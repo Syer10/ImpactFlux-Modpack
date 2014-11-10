@@ -6,7 +6,7 @@ Changelog: https://docs.google.com/spreadsheets/d/19_z7bp1cDa7CiQqvS-iDJXriYWNfy
 
 The pack can be downloaded through the FTB launcher using the pack code ImpactFlux
 
-Development builds can be downlaoded by clicking Download ZIP on the right, or by clicking this link;
+Development builds can be downloaded by clicking Download ZIP on the right, or by clicking this link;
 
 https://github.com/ImpactFlux/ImpactFlux-Modpack/archive/master.zip
 
