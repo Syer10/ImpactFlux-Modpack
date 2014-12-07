@@ -8,15 +8,15 @@ The pack can be downloaded through the FTB launcher using the pack code ImpactFl
 
 Development builds can be downlaoded by clicking Download ZIP on the right, or by clicking this link;
 
-https://github.com/Syer10/ImpactFlux-Modpack/archive/master.zip
+https://github.com/ImpactFlux/ImpactFlux-Modpack/archive/master.zip
 
 We do not guarantee that these builds will work, but if there is a problem, please tell us. The version on github will always be the most up to date and bleeding edge versions of the quest data and mods.
 
 Minecraft Version: 1.7.10
 
-Forge Version: 1230
+Forge Version: 1205
 
-Pack Author: ImpactFlux/VanitySet & Syer10
+Pack Author: ImpactFlux/VanitySet
 
 Pack Description:
 
