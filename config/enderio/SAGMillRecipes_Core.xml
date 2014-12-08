@@ -223,25 +223,25 @@ Examples:
         <itemStack modID="minecraft" itemName="stonebrick" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="cobblestone" number="4" />
+        <itemStack modID="minecraft" itemName="cobblestone"/>
       </output>
     </recipe>
 
-    <recipe name="CrackedBricks" energyCost="1200">
+    <recipe name="CrackedBricks" energyCost="2000">
       <input>
         <itemStack modID="minecraft" itemName="stonebrick" itemMeta="2" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="cobblestone" number="2" />
+        <itemStack modID="minecraft" itemName="cobblestone"/>
       </output>
     </recipe>
 
-    <recipe name="ChisledBricks" energyCost="3600">
+    <recipe name="ChisledBricks" energyCost="2800">
       <input>
         <itemStack modID="minecraft" itemName="stonebrick" itemMeta="3" />
       </input>
       <output>
-        <itemStack modID="minecraft" itemName="cobblestone" number="4" />
+        <itemStack modID="minecraft" itemName="cobblestone"/>
       </output>
     </recipe>
 
@@ -625,6 +625,17 @@ Examples:
 
 
   <recipeGroup name="Applied Energistics">
+
+
+    <recipe name="ChargedCertusQuartzOre" energyCost="2400">
+      <input>
+        <itemStack  modID="appliedenergistics2" itemName="tile.OreQuartzCharged"  />
+      </input>
+      <output>
+        <itemStack modID="appliedenergistics2" itemName="item.ItemMultiMaterial" itemMeta="1"/>
+        <itemStack oreDictionary="dustCertusQuartz" />
+      </output>
+    </recipe>
 
     <recipe name="CertusQuartzOre" energyCost="2400">
       <input>
