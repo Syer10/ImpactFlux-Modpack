@@ -2,7 +2,7 @@ Name: ImpactFlux Modpack
 Permissions: https://docs.google.com/spreadsheets/d/1-fhQQ1YGoW4nJeoP1Ov4lIrKh0eeh4r6C2V9TImOrho/edit?usp=sharing
 Pack code: ImpactFlux
 Minecraft Version: 1.7.10
-Forge Version: 1205
+Forge Version: 1277
 Pack Version: 0.9.6
 Pack Author: ImpactFlux/VanitySet
 Pack Description:

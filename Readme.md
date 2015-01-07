@@ -14,7 +14,7 @@ We do not guarantee that these builds will work, but if there is a problem, plea
 
 Minecraft Version: 1.7.10
 
-Forge Version: 1205
+Forge Version: 1277
 
 Pack Author: ImpactFlux/VanitySet
 
