@@ -95,11 +95,11 @@ recipes.addShaped(<EnderStorage:enderPouch>,
 
 
 recipes.remove(<EnderStorage:enderChest:4096>);
-recipes.addShaped(<EnderStorage:enderChest:4096>,
+recipes.addShaped(<EnderStorage:enderChest:4096>, 
 [
-[<minecraft:blaze_rod>,<minecraft:wool>,<minecraft:blaze_rod>],
-[<minecraft:obsidian>,<appliedenergistics2:item.ItemMultiMaterial:48>,<minecraft:obsidian>],
-[<minecraft:blaze_rod>,<minecraft:ender_pearl>,<minecraft:blaze_rod>]]
+[<minecraft:obsidian>, <ore:blockWool>, <ore:obsidian>],
+[<ore:itemBlazeRod>, <appliedenergistics2:item.ItemMultiMaterial:48>, <minecraft:blaze_rod>],
+[<minecraft:obsidian>, <ore:pearlEnder>, <ore:obsidian>]]
 );
 
 recipes.remove(<minecraft:ender_chest>);
