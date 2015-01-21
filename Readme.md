@@ -16,7 +16,7 @@ Minecraft Version: 1.7.10
 
 Forge Version: 1277
 
-Pack Author: ImpactFlux/VanitySet
+Pack Authors: ImpactFlux/VanitySet/Syer10
 
 Pack Description:
 
