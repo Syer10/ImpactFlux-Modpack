@@ -57,6 +57,8 @@ Found creative tab: thermalexpansion.creativeTabItems
 Found creative tab: thermalexpansion.creativeTabTools
 Found creative tab: thermalexpansion.creativeTabFlorbs
 Found creative tab: thermalfoundation.creativeTab
+Found creative tab: thermalfoundation.creativeTabArmor
+Found creative tab: thermalfoundation.creativeTabTools
 Found creative tab: twilightForest
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
@@ -126,14 +128,14 @@ override called. Params: GlowPanel, 0
 override called. Params: Mekanism, GlowPanel
 Found ItemStack Mekanism:GlowPanel. 64xitem.GlowPanel@0
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: tile.Decoration.BrickFancy_12
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_12
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy_10
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_10
 Loading: ExtraUtilities.js
 override called. Params: drum, 0,1
 override called. Params: ExtraUtilities, drum
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: tile.Darkleaves0
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Darkleaves0
+getRandomMaterial called. Returned: tile.Darkleaves3
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Darkleaves3
 Loading: BuildCraft.js
 Loading: Bibliocraft.js
 override called. Params: *, 0
@@ -195,6 +197,8 @@ Regx match found! BiblioCraft:* matches BiblioCraft:BiblioWorkbench.
 Found ItemStack BiblioCraft:BiblioWorkbench. 64xtile.BiblioWorkbench@0
 Regx match found! BiblioCraft:* matches BiblioCraft:Bibliotheca.
 Found ItemStack BiblioCraft:Bibliotheca. 64xtile.BiblioBookcase@0
+Regx match found! BiblioCraft:* matches BiblioCraft:BookcaseFilled.
+Found ItemStack BiblioCraft:BookcaseFilled. 64xtile.BookcaseFilled@0
 Regx match found! BiblioCraft:* matches BiblioCraft:Printing.
 Cannot find ItemStack BiblioCraft:Printing
 Regx match found! BiblioCraft:* matches BiblioCraft:Typesetting.
@@ -257,7 +261,7 @@ getFacadeItem called.
 getSubTypes called.
 getNumberOfTypes called. Returned: 1800
 The function override_item is deprecated. Please use override instead! This function will be removed in a future version!
-override called. Params: item.ItemFacade, 508
+override called. Params: item.ItemFacade, 371
 override called. Params: appliedenergistics2, item.ItemFacade
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
