@@ -2,8 +2,8 @@ Name: ImpactFlux Modpack
 Permissions: https://docs.google.com/spreadsheets/d/1-fhQQ1YGoW4nJeoP1Ov4lIrKh0eeh4r6C2V9TImOrho/edit?usp=sharing
 Pack code: ImpactFlux
 Minecraft Version: 1.7.10
-Forge Version: 1291
-Pack Version: 1.5.0
+Forge Version: 1408
+Pack Version: 2.0.0
 Pack Author: ImpactFlux/VanitySet
 Pack Description:
 Welcome to ImpactFlux.  This is a hardcore questing modpack aimed at exploring a different world of Minecraft.  It's a new world, things are different.  Meteors constantly fall from the sky, the endermen are behaving funny and the monsters.. well the monsters are tough.  The goal of this pack is to have players complete challenges in vanilla and modded Minecraft they have yet to do. The pack will be hard as lives are not easily earned and the quests will push the player.

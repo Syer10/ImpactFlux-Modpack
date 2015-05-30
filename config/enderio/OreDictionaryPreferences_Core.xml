@@ -79,7 +79,10 @@ To write the contents of the ore dictionary to config/oreDictionaryRegistery.txt
     <itemStack modID="ThermalFoundation" itemName="material" itemMeta="41" />
   </preference>
   
-  
+  <preference oreDictionary="dustNetherQuartz">
+    <itemStack modID="appliedenergistics2" itemName="item.itemMultiMaterial" itemMeta="3" />
+  </preference>
+
   <!-- Ingots -->
 
   <preference oreDictionary="ingotCopper">
@@ -108,9 +111,9 @@ To write the contents of the ore dictionary to config/oreDictionaryRegistery.txt
   <preference oreDictionary="ingotAluminum">    
     <itemStack modID="TConstruct" itemName="materials" itemMeta="11" />    
   </preference>
-  
-  <preference oreDictionary="ingotAluminuim">    
-    <itemStack modID="TConstruct" itemName="materials" itemMeta="11" />    
+
+  <preference oreDictionary="ingotAluminium">
+    <itemStack modID="TConstruct" itemName="materials" itemMeta="11" />
   </preference>
 
 
