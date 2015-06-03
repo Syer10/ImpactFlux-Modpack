@@ -1,0 +1,59 @@
+{
+"name": "loot-ore",
+"criteria": {},
+"levels": {
+"4": {
+"loot": {
+"ORE": {
+"loot": [
+{
+"weight": "1",
+"loot": {
+"name": "ThermalExpansion:Tesseract",
+"meta": 7
+}
+},
+{
+"weight": "4",
+"loot": {
+"name": "diamond"
+}
+},
+{
+"weight": "7",
+"loot": {
+"name": "gold_ingot",
+"min": 2,
+"max": 5
+}
+},
+{
+"weight": "8",
+"loot": {
+"name": "emerald",
+"min": 2,
+"max": 5
+}
+},
+{
+"weight": "15",
+"loot": {
+"name": "coal",
+"min": 2,
+"max": 5
+}
+},
+{
+"weight": "10",
+"loot": {
+"name": "iron_ingot",
+"min": 2,
+"max": 7
+}
+}
+]
+}
+}
+}
+}
+}
