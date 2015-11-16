@@ -1,443 +1,394 @@
-{  
-	"manifestType":"minecraftModpack",
-	"manifestVersion":1,
-	"name":"ImpactFlux",
-	"version":"2.0.0",
-	"author":"Syer10",
-	"description":"A continuation of ImpactFlux the FTB modpack",
-	"files":[  
-		{
-			"projectID": 32274,
-			"fileID": 2221282,
-			"fileName": "JourneyMap5.0.1_FairPlay_MC1.7.10.jar",
-			"required": true
-		},
-		{
-			"projectID": 51195,
-			"fileID": 2235453,
-			"fileName": "Railcraft 9.6.1.0",
-			"required": true
-		},
-		{
-			"projectID": 59218,
-			"fileID": 2227503,
-			"fileName": "[1.7.10]bspkrsCore-universal-6.16.jar",
-			"required": true
-		},
-		{
-			"projectID": 59968,
-			"fileID": 2233901,
-			"fileName": "SpecialMobs-1.7.10-3.1.1.jar",
-			"required": true
-		},
-		{
-			"projectID": 59983,
-			"fileID": 2214318,
-			"fileName": "UtilityMobs-1.7.10-3.1.1.jar",
-			"required": true
-		},
-		{
-			"projectID": 63352,
-			"fileID": 2240791,
-			"fileName": "neiaddons-1.12.9.32-mc1.7.10.jar"
-		},
-		{
-			"projectID": 64578,
-			"fileID": 2238375,
-			"fileName": "EnderIO-1.7.10-2.2.8.381.jar",
-			"required": true
-		},
-		{
-			"projectID": 66776,
-			"fileID": 2228195,
-			"fileName": "meteors-1.7.10-2.14.2",
-			"required": true
-		},
-		{
-			"projectID": 68023,
-			"fileID": 2234977,
-			"fileName": "Mariculture 1.7.10 - 1.2.4.2a",
-			"required": true
-		},
-		{
-			"projectID": 69118,
-			"fileID": 2231390,
-			"fileName": "Morpheus-1.7.10-1.6.4.jar",
-			"required": true
-		},
-		{
-			"projectID": 69162,
-			"fileID": 2234198,
-			"fileName": "CoFHCore-[1.7.10]3.0.2-262.jar",
-			"required": true
-		},
-		{
-			"projectID": 69163,
-			"fileID": 2234200,
-			"fileName": "ThermalExpansion-[1.7.10]4.0.1-182.jar",
-			"required": true
-		},
-		{
-			"projectID": 70631,
-			"fileID": 2233785,
-			"fileName": "RedstoneArsenal-[1.7.10]1.1.0-80.jar",
-			"required": true
-		},
-		{
-			"projectID": 73488,
-			"fileID": 2230518,
-			"fileName": "Waila-1.5.10_1.7.10.jar"
-		},
-		{
-			"projectID": 73510,
-			"fileID": 2229724,
-			"fileName": "Jabba-1.2.1a_1.7.10.jar",
-			"required": true
-		},
-		{
-			"projectID": 74072,
-			"fileID": 2237598,
-			"fileName": "TConstruct-1.7.10-1.8.5.jar",
-			"required": true
-		},
-		{
-			"projectID": 74120,
-			"fileID": 2216125,
-			"fileName": "natura-1.7.10-2.2.0.1.jar",
-			"required": true
-		},
-		{
-			"projectID": 74924,
-			"fileID": 2215235,
-			"fileName": "Mantle-1.7.10-0.3.2.jar",
-			"required": true
-		},
-		{
-			"projectID": 75598,
-			"fileID": 2232793,
-			"fileName": "Thaumic Tinkerer 164",
-			"required": true
-		},
-		{
-			"projectID": 76612,
-			"fileID": 2234978,
-			"fileName": "Enchiridion 2-1.7.10-2.0.1.jar",
-			"required": true
-		},
-		{
-			"projectID": 76845,
-			"fileID": 2235229,
-			"fileName": "TiCTooltips-mc1.7.10-1.2.4.jar"
-		},
-		{
-			"projectID": 77027,
-			"fileID": 2237731,
-			"fileName": "HQM-The Journey (4.2.4).jar",
-			"required": true
-		},
-		{
-			"projectID": 78057,
-			"fileID": 2229984,
-			"fileName": "TMechworks-1.7.10-0.2.14.100.jar",
-			"required": true
-		},
-		{
-			"projectID": 79287,
-			"fileID": 2226443,
-			"fileName": "WailaHarvestability-mc1.7.x-1.1.2.jar"
-		},
-		{
-			"projectID": 79325,
-			"fileID": 2239405,
-			"fileName": "SimplyJetpacks-MC1.7.10-1.5.1.jar",
-			"required": true
-		},
-		{
-			"projectID": 220318,
-			"fileID": 2229386,
-			"fileName": "BiomesOPlenty-1.7.10-2.1.0.1067-universal.jar",
-			"required": true
-		},
-		{
-			"projectID": 220811,
-			"fileID": 2223224,
-			"fileName": "SpiceOfLife-mc1.7.10-1.2.3.jar",
-			"required": true
-		},
-		{
-			"projectID": 221584,
-			"fileID": 2212871,
-			"fileName": "AdminCommandsToolbox-0.0.2a_1.7.10.jar",
-			"required": true
-		},
-		{
-			"projectID": 221585,
-			"fileID": 2230658,
-			"fileName": "roguelike-1.7.10-1.3.6.3.jar",
-			"required": true
-		},
-		{
-			"projectID": 221857,
-			"fileID": 2233399,
-			"fileName": "Pam's HarvestCraft 1.7.10h.jar",
-			"required": true
-		},
-		{
-			"projectID": 222211,
-			"fileID": 2237940,
-			"fileName": "NotEnoughItems-1.7.10-1.0.4.107-universal.jar",
-			"required": true
-		},
-		{
-			"projectID": 222213,
-			"fileID": 2237939,
-			"fileName": "CodeChickenCore-1.7.10-1.0.6.43-universal.jar",
-			"required": true
-		},
-		{
-			"projectID": 222378,
-			"fileID": 2214959,
-			"fileName": "MineMenu-1.7.10-1.2.0.B44-universal.jar"
-		},
-		{
-			"projectID": 222880,
-			"fileID": 2233780,
-			"fileName": "ThermalFoundation-[1.7.10]1.0.0-81.jar",
-			"required": true
-		},
-		{
-			"projectID": 223094,
-			"fileID": 2210792,
-			"fileName": "Inventory Tweaks 1.59-dev-152"
-		},
-		{
-			"projectID": 223099,
-			"fileID": 2237618,
-			"fileName": "BluePower-1.7.10-0.2.938-universal.jar",
-			"required": true
-		},
-		{
-			"projectID": 223248,
-			"fileID": 2237600,
-			"fileName": "IguanaTinkerTweaks-1.7.10-2.1.5.jar",
-			"required": true
-		},
-		{
-			"projectID": 223628,
-			"fileID": 2227552,
-			"fileName": "Thaumcraft-1.7.10-4.2.3.5.jar",
-			"required": true
-		},
-		{
-			"projectID": 223735,
-			"fileID": 2219248,
-			"fileName": "Aroma1997Core-1.7.10-1.0.2.13",
-			"required": true
-		},
-		{
-			"projectID": 223792,
-			"fileID": 2238507,
-			"fileName": "INpureCore-[1.7.10]1.0.0B9-62.jar"
-		},
-		{
-			"projectID": 223794,
-			"fileID": 2240972,
-			"fileName": "appliedenergistics2-rv2-stable-4.jar",
-			"required": true
-		},
-		{
-			"projectID": 224029,
-			"fileID": 2233934,
-			"fileName": "MineTweaker3-1.7.10-3.0.9C.jar",
-			"required": true
-		},
-		{
-			"projectID": 224125,
-			"fileID": 2238119,
-			"fileName": "PneumaticCraft-1.7.10-1.6.9-73-universal.jar",
-			"required": true
-		},
-		{
-			"projectID": 224472,
-			"fileID": 2225648,
-			"fileName": "AppleCore-mc1.7.10-1.1.0.jar",
-			"required": true
-		},
-		{
-			"projectID": 224476,
-			"fileID": 2237679,
-			"fileName": "HungerOverhaul-1.7.10-1.0.0.jar",
-			"required": true
-		},
-		{
-			"projectID": 224712,
-			"fileID": 2232718,
-			"fileName": "Wawla-1.2.1_1.7.10.jar"
-		},
-		{
-			"projectID": 224785,
-			"fileID": 2241123,
-			"fileName": "QmunityLib-1.7.10-0.1.114-universal.jar",
-			"required": true
-		},
-		{
-			"projectID": 224791,
-			"fileID": 2240559,
-			"fileName": "BloodMagic-1.7.10-1.3.3-2.jar",
-			"required": true
-		},
-		{
-			"projectID": 224942,
-			"fileID": 2234692,
-			"fileName": "Dense Ores 1.6.2",
-			"required": true
-		},
-		{
-			"projectID": 225095,
-			"fileID": 2226058,
-			"fileName": "ThaumcraftNEIPlugin-1.7.10-1.7"
-		},
-		{
-			"projectID": 225236,
-			"fileID": 2233102,
-			"fileName": "Chisel 2 - 2.3.10",
-			"required": true
-		},
-		{
-			"projectID": 225251,
-			"fileID": 2234835,
-			"fileName": "NEIIntegration-MC1.7.10-1.0.9.jar"
-		},
-		{
-			"projectID": 225561,
-			"fileID": 2239472,
-			"fileName": "Extra Utilities 1.2.5",
-			"required": true
-		},
-		{
-			"projectID": 225564,
-			"fileID": 2218859,
-			"fileName": "[1.7.10]ArmorStatusHUD-client-1.28.jar"
-		},
-		{
-			"projectID": 225568,
-			"fileID": 2218977,
-			"fileName": "[1.7.10]FloatingRuins-universal-1.7.10.r02.jar",
-			"required": true
-		},
-		{
-			"projectID": 225643,
-			"fileID": 2240623,
-			"fileName": "Botania r1.6-191.jar",
-			"required": true
-		},
-		{
-			"projectID": 225658,
-			"fileID": 2219249,
-			"fileName": "AromaBackup-1.7.10-0.0.0.5"
-		},
-		{
-			"projectID": 226082,
-			"fileID": 2235082,
-			"fileName": "ttCore-MC1.7.10-0.1.1-76.jar",
-			"required": true
-		},
-		{
-			"projectID": 226119,
-			"fileID": 2237250,
-			"fileName": "WAILAPlugins-MC1.7.10-0.0.1-15.jar"
-		},
-		{
-			"projectID": 227328,
-			"fileID": 2239854,
-			"fileName": "tcnodetracker-1.7.10-1.1.1.jar"
-		},
-		{
-			"projectID": 227443,
-			"fileID": 2233787,
-			"fileName": "ThermalDynamics-[1.7.10]1.0.0-122.jar",
-			"required": true
-		},
-		{
-			"projectID": 227639,
-			"fileID": 2238492,
-			"fileName": "twilightforest-1.7.10-2.3.7.jar",
-			"required": true
-		},
-		{
-			"projectID": 227661,
-			"fileID": 2235184,
-			"fileName": "ThermalSmeltery-1.7.10-1.2.1.jar",
-			"required": true
-		},
-		{
-			"projectID": 228027,
-			"fileID": 2235545,
-			"fileName": "BiblioCraft v1.10.4",
-			"required": true
-		},
-		{
-			"projectID": 228362,
-			"fileID": 2229577,
-			"fileName": "BiblioWoods Biomes O' Plenty edition v1.9 for BiblioCraft v1.9.x+",
-			"required": true
-		},
-		{
-			"projectID": 228364,
-			"fileID": 2229581,
-			"fileName": "BiblioWoods Natura edition v1.5 for BiblioCraft v1.9.x+",
-			"required": true
-		},
-		{
-			"projectID": 228756,
-			"fileID": 2230908,
-			"fileName": "ironchest-1.7.10-6.0.62.742-universal.jar",
-			"required": true
-		},
-		{
-			"projectID": 228832,
-			"fileID": 2237920,
-			"fileName": "Guide-API - 1.0.0-16",
-			"required": true
-		},
-		{
-			"projectID": 229060,
-			"fileID": 2233005,
-			"fileName": "iChunUtil-4.2.2.jar",
-			"required": true
-		},
-		{
-			"projectID": 229080,
-			"fileID": 2232200,
-			"fileName": "Morph-Beta-0.9.1.jar",
-			"required": true
-		},
-		{
-			"projectID": 229090,
-			"fileID": 2232310,
-			"fileName": "Sync-4.0.0.jar",
-			"required": true
-		},
-		{
-			"projectID": 229306,
-			"fileID": 2235348,
-			"fileName": "EnderStorage-1.7.10-1.4.7.33-universal.jar",
-			"required": true
-		}
-	],
-	"overrides":"overrides",
-	"minecraft":{  
-		"version":"1.7.10",
-		"libraries":"libraries",
-		"additionalJavaArgs":{  
-			"1.6":"-XX:JavaArgsAreSoMuchFun",
-			"1.7":"-XX:DifferentArgsHereBecauseWhyNot"
-		},
-		"modLoaders":[  
-			{  
-				"id":"forge-10.13.3.1424",
-				"primary":true
-			}
-		]
-	}
+{
+  "minecraft": {
+    "version": "1.7.10",
+    "modLoaders": [
+      {
+        "id": "forge-10.13.4.1566",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "ImpactFlux",
+  "version": "2.0.1",
+  "author": "Syer10",
+  "files": [
+    {
+      "projectID": 59983,
+      "fileID": 2214318,
+      "required": true
+    },
+    {
+      "projectID": 68023,
+      "fileID": 2234977,
+      "required": true
+    },
+    {
+      "projectID": 73488,
+      "fileID": 2230518,
+      "required": true
+    },
+    {
+      "projectID": 73510,
+      "fileID": 2229724,
+      "required": true
+    },
+    {
+      "projectID": 74120,
+      "fileID": 2216125,
+      "required": true
+    },
+    {
+      "projectID": 75598,
+      "fileID": 2232793,
+      "required": true
+    },
+    {
+      "projectID": 78057,
+      "fileID": 2229984,
+      "required": true
+    },
+    {
+      "projectID": 220318,
+      "fileID": 2229386,
+      "required": true
+    },
+    {
+      "projectID": 221584,
+      "fileID": 2212871,
+      "required": true
+    },
+    {
+      "projectID": 221585,
+      "fileID": 2230658,
+      "required": true
+    },
+    {
+      "projectID": 222378,
+      "fileID": 2214959,
+      "required": true
+    },
+    {
+      "projectID": 223094,
+      "fileID": 2210792,
+      "required": true
+    },
+    {
+      "projectID": 223248,
+      "fileID": 2237600,
+      "required": true
+    },
+    {
+      "projectID": 223628,
+      "fileID": 2227552,
+      "required": true
+    },
+    {
+      "projectID": 223792,
+      "fileID": 2238507,
+      "required": true
+    },
+    {
+      "projectID": 224472,
+      "fileID": 2225648,
+      "required": true
+    },
+    {
+      "projectID": 224476,
+      "fileID": 2237679,
+      "required": true
+    },
+    {
+      "projectID": 224785,
+      "fileID": 2241123,
+      "required": true
+    },
+    {
+      "projectID": 224942,
+      "fileID": 2234692,
+      "required": true
+    },
+    {
+      "projectID": 225564,
+      "fileID": 2218859,
+      "required": true
+    },
+    {
+      "projectID": 225568,
+      "fileID": 2218977,
+      "required": true
+    },
+    {
+      "projectID": 227639,
+      "fileID": 2238492,
+      "required": true
+    },
+    {
+      "projectID": 227661,
+      "fileID": 2235184,
+      "required": true
+    },
+    {
+      "projectID": 228362,
+      "fileID": 2229577,
+      "required": true
+    },
+    {
+      "projectID": 228364,
+      "fileID": 2229581,
+      "required": true
+    },
+    {
+      "projectID": 228756,
+      "fileID": 2230908,
+      "required": true
+    },
+    {
+      "projectID": 229060,
+      "fileID": 2233005,
+      "required": true
+    },
+    {
+      "projectID": 229090,
+      "fileID": 2232310,
+      "required": true
+    },
+    {
+      "projectID": 223794,
+      "fileID": 2245762,
+      "required": true
+    },
+    {
+      "projectID": 223735,
+      "fileID": 2257644,
+      "required": true
+    },
+    {
+      "projectID": 228027,
+      "fileID": 2264882,
+      "required": true
+    },
+    {
+      "projectID": 224791,
+      "fileID": 2264826,
+      "required": true
+    },
+    {
+      "projectID": 223099,
+      "fileID": 2251307,
+      "required": true
+    },
+    {
+      "projectID": 225643,
+      "fileID": 2266379,
+      "required": true
+    },
+    {
+      "projectID": 222213,
+      "fileID": 2262089,
+      "required": true
+    },
+    {
+      "projectID": 225236,
+      "fileID": 2256718,
+      "required": true
+    },
+    {
+      "projectID": 69162,
+      "fileID": 2246919,
+      "required": true
+    },
+    {
+      "projectID": 76612,
+      "fileID": 2242855,
+      "required": true
+    },
+    {
+      "projectID": 229306,
+      "fileID": 2262092,
+      "required": true
+    },
+    {
+      "projectID": 225561,
+      "fileID": 2264383,
+      "required": true
+    },
+    {
+      "projectID": 66776,
+      "fileID": 2242266,
+      "required": true
+    },
+    {
+      "projectID": 228832,
+      "fileID": 2241379,
+      "required": true
+    },
+    {
+      "projectID": 77027,
+      "fileID": 2266059,
+      "required": true
+    },
+    {
+      "projectID": 32274,
+      "fileID": 2245166,
+      "required": true
+    },
+    {
+      "projectID": 74924,
+      "fileID": 2264244,
+      "required": true
+    },
+    {
+      "projectID": 224029,
+      "fileID": 2259434,
+      "required": true
+    },
+    {
+      "projectID": 229080,
+      "fileID": 2251879,
+      "required": true
+    },
+    {
+      "projectID": 69118,
+      "fileID": 2251029,
+      "required": true
+    },
+    {
+      "projectID": 63352,
+      "fileID": 2262120,
+      "required": true
+    },
+    {
+      "projectID": 225251,
+      "fileID": 2261922,
+      "required": true
+    },
+    {
+      "projectID": 222211,
+      "fileID": 2262091,
+      "required": true
+    },
+    {
+      "projectID": 221857,
+      "fileID": 2262206,
+      "required": true
+    },
+    {
+      "projectID": 224125,
+      "fileID": 2265101,
+      "required": true
+    },
+    {
+      "projectID": 51195,
+      "fileID": 2263415,
+      "required": true
+    },
+    {
+      "projectID": 70631,
+      "fileID": 2246927,
+      "required": true
+    },
+    {
+      "projectID": 220333,
+      "fileID": 2246916,
+      "required": true
+    },
+    {
+      "projectID": 79325,
+      "fileID": 2265032,
+      "required": true
+    },
+    {
+      "projectID": 59968,
+      "fileID": 2256147,
+      "required": true
+    },
+    {
+      "projectID": 225095,
+      "fileID": 2241913,
+      "required": true
+    },
+    {
+      "projectID": 227328,
+      "fileID": 2247224,
+      "required": true
+    },
+    {
+      "projectID": 220811,
+      "fileID": 2265752,
+      "required": true
+    },
+    {
+      "projectID": 227443,
+      "fileID": 2246949,
+      "required": true
+    },
+    {
+      "projectID": 69163,
+      "fileID": 2246924,
+      "required": true
+    },
+    {
+      "projectID": 222880,
+      "fileID": 2246921,
+      "required": true
+    },
+    {
+      "projectID": 76845,
+      "fileID": 2246472,
+      "required": true
+    },
+    {
+      "projectID": 74072,
+      "fileID": 2264246,
+      "required": true
+    },
+    {
+      "projectID": 79287,
+      "fileID": 2264809,
+      "required": true
+    },
+    {
+      "projectID": 231868,
+      "fileID": 2266611,
+      "required": true
+    },
+    {
+      "projectID": 226119,
+      "fileID": 2265116,
+      "required": true
+    },
+    {
+      "projectID": 224712,
+      "fileID": 2264413,
+      "required": true
+    },
+    {
+      "projectID": 222097,
+      "fileID": 2235314,
+      "required": true
+    },
+    {
+      "projectID": 64578,
+      "fileID": 2266625,
+      "required": true
+    },
+    {
+      "projectID": 225658,
+      "fileID": 2263482,
+      "required": true
+    },
+    {
+      "projectID": 227083,
+      "fileID": 2224857,
+      "required": true
+    },
+    {
+      "projectID": 59218,
+      "fileID": 2227503,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
 }
