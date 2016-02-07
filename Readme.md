@@ -12,9 +12,11 @@ We do not guarantee that these builds will work, but if there is a problem, plea
 
 Minecraft Version: 1.7.10
 
-Forge Version: 1408
+Forge Version: 1614
 
-Pack Authors: ImpactFlux/VanitySet/Syer10
+Pack Authors: Syer10
+
+Past Pack Authors:ImpactFlux/VanitySet
 
 Pack Description:
 
