@@ -17,7 +17,21 @@ vanilla.seeds.addSeed(<Natura:barley.seed:0>.weight(10));
 furnace.setFuel(<minecraft:ladder>, 100);
 furnace.addRecipe(<minecraft:rotten_flesh>, <minecraft:leather>, 0.5);
 
+//
+// Adding Hoe recipe
+//
 
+recipes.addShaped(<minecraft:stone_hoe>, 
+[[<minecraft:cobblestone>, <minecraft:cobblestone>, null],
+[null, <minecraft:stick>, null],
+[null, <minecraft:stick>, null]]
+);
+
+recipes.addShaped(<minecraft:stone_hoe>, 
+[[null, <minecraft:cobblestone>, <minecraft:cobblestone>],
+[null, <minecraft:stick>, null],
+[null, <minecraft:stick>, null]]
+);
 //
 // Tweaking Meteor Recipes
 //
